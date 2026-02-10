@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatgpt Clone</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav flex  items-center justify-between ">
+       <span class="name cursor-pointer">ChatGPT</span>
+        <button class="w[50px] bg-blue-100 rounded text-xlp-[5px]">Get Plus</button>
+        <div class="icons">
+            <span class="plus cursor-pointer p-5"><i class="fa-solid fa-user-group"></i></span>
+            <span class="plus cursor-pointer p-5"><i class="fa-regular fa-comment"></i></span>
+        </div>
+    </nav>
+    <div class="main h-[100vh] w-[100vw] flex items-center flex-wrap justify-center">
+        <div class="answer">
+    <p class="answer-para"></p>
+        </div>
+
+        <div class="content mt-10 z-10 justify-center flex flex-col p-50 m-50 w-full items-center gap-8 ">
+            <h1 class=" title text-center justify-center content-center text-3xl" >What can i help with?</h1>
+          
+        <form action="" class=" form items-center flex w-[60vw] border-slate-200 rounded border p-50 shadow">
+            <span class="plus cursor-pointer"><i class="fa-solid fa-plus "></i></span>
+            <input type="text" class="input w-[60vw]" placeholder="Ask Anything..">
+              <span class="plus sendBtn cursor-pointer"><i class="fa-solid fa-paper-plane"></i></span>
+          <span class="plus cursor-pointer">  <i class="fa-solid fa-microphone"></i></span>
+        
+        </form>
+    </div>
+        </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

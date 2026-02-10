@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+nav{
+    padding: 0 20px;
+    margin-top: 10px;
+    
+}
+nav button{
+    background-color: rgba(149, 60, 233, 0.022);
+    padding: 5px;
+    width: 90px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: blueviolet;
+    font-weight: 700;
+}
+.main{
+    z-index: 1;
+}
+.form{
+    border-radius: 50px;
+    padding: 8px;
+    gap: 12px;
+}
+.input{
+    text-decoration: none;
+    padding: 10px;
+    outline: none;
+   
+
+}
+
+.input ::placeholder{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(188, 188, 188);
+
+}
+.plus{
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.plus:hover{
+    background-color: rgb(240, 238, 238);
+}
+.sendBtn{
+    transform: rotate(45deg);
+}
+
+.answer {
+    display: flex;
+    align-items: flex-start;     
+    justify-content: flex-start;
+    width: 50vw;
+    max-height: 50vh;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 32px 40px;
+    margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); */
+    /* position: absolute; */
+    z-index: 0;
+  }
+
+  .answer p {
+    max-width: 68ch;         
+    font-size: 16px;
+    line-height: 1.75;
+    color: #2e2e2e;
+    text-align: left;
+    margin: 0 auto 1.25rem auto;
+  }
+
+
+
+  
