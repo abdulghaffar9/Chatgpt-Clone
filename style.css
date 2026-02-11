@@ -78,13 +78,15 @@ nav button{
     transform: rotate(45deg);
 }
 
+
+
 .answer {
     display: flex;
     align-items: flex-start;     
     justify-content: flex-start;
     width: 50vw;
     max-height: 50vh;
-    background-color: #ffffff;
+    background-color:transparent;
     border-radius: 12px;
     padding: 32px 40px;
     margin-top: 20px;
@@ -99,11 +101,14 @@ nav button{
     max-width: 68ch;         
     font-size: 16px;
     line-height: 1.75;
-    color: #2e2e2e;
+    color: #000000;
     text-align: left;
     margin: 0 auto 1.25rem auto;
   }
 
+  body.dark .pDark {
+    color: white;
+  }
 
 
   
