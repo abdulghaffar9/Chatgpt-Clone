@@ -70,7 +70,21 @@ sendBtn.addEventListener("click", function () {
   });
 
 
+
+
+
+  const toggleBtn = document.getElementById("themeToggle");
+
+  toggleBtn.addEventListener("click", () => {
+    console.log("hello")
+    document.body.classList.toggle("dark");
+    answer.style.backgroundColor = "#111111";
+    
+
+  });
   
+
+
 
 
 
